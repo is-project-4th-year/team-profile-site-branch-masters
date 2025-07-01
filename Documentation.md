@@ -11,4 +11,4 @@ Esther Kibugi
 We learnt how to
 - Rebase
 - Solve/ prevent a merge conflict
--hello
+-Merge

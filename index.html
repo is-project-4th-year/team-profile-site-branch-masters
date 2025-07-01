@@ -14,46 +14,82 @@
       color: #333;
     }
     .member {
+     display: flex;
+      flex-wrap: wrap; /* Makes it responsive */
+      justify-content: space-between;
       background: #fff;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
       box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      gap: 20px;
     }
-      .avatar {
-      max-width: 100px;
+    .member-text {
+      flex: 1;
+      min-width: 250px;
     }
+    .avatar {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+    .animal-bio {
+      flex-basis: 100%;
+      margin-top: 10px;
+    }
+   
   </style>
 </head>
 <body>
   <h1>Branch-Masters</h1>
 
-  <!-- 👇 Each student adds their member block here -->
-
   <div class="member">
-    <h2>Deogracious Moriasi</h2>
-    <p><strong>GitHub:</strong> @mosweta</p>
-    <p><strong>Favorite Tech:</strong> JavaScript, HTML, CSS, Python</p>
-    <p><strong>Fun Fact:</strong> I love watching movies!</p>
 
-    <h2>Ngeno Mark Kipchumba </h2>
-    <p><strong>GitHub:</strong> @NgenoMark</p>
-    <p><strong>Favorite Tech:</strong> Java and Python </p>
-    <p><strong>Fun Fact:</strong> I love Moggy cats!</p>
+    <div class = "Hope">
+      <img class="avatar" src="owl.jpeg" alt="Owl avatar" >
+      <h2>Hope Macharia</h2>
+      <p><strong>GitHub:</strong> @IntelligentlyFavoured</p>
+      <p><strong>Favorite Tech:</strong> JavaScript & Python</p>
+      <p><strong>Fun Fact:</strong> I love beautiful scents!</p>
+      <p class="animal-bio"><strong>Avatar Animal:</strong> Owl – Owls symbolize wisdom, focus, and quiet strength. Just like Hope, they blend insight with creativity, navigating both logic and imagination with ease.</p>
+    </div>
+  
+    <div class = "Deo">
+      <h2>Deogracious Moriasi</h2>
+      <p><strong>GitHub:</strong> @mosweta</p>
+      <p><strong>Favorite Tech:</strong> JavaScript, HTML, CSS, Python</p>
+      <p><strong>Fun Fact:</strong> I love watching movies!</p>
+      <img src="Tiger.jpg" alt="Avatar">>
+      <P>The tiger is a potent symbol in Jungian psychology; it symbolizes power, strength, and courage.</P>
+    </div> 
+
+    <div class = "Mark">
+      <h2>Ngeno Mark Kipchumba </h2>
+      <p><strong>GitHub:</strong> @NgenoMark</p>
+      <p><strong>Favorite Tech:</strong> Java and Python </p>
+      <p><strong>Fun Fact:</strong> I love Moggy cats!</p>  
+      <p> <strong>Animal : Bengal Cat </strong> Cats are pure beings and are really smart</p>
+      <img class="avatar" src="https://i.pinimg.com/736x/5e/04/41/5e044133b1d91f676db69bec7c308e36.jpg" alt="Bengal avatar" >
+    </div>
 
     <h2>Esther Kibugi</h2>
-   <img class="avatar" src="https://img.freepik.com/premium-vector/cute-bunny-avatar-logo-with-glasses-neat-suit-clothes_662486-25.jpg" alt="Esther's Avatar"> 
-      <h2>Esther Kibugi</h2>
-      <p><strong>GitHub:</strong> @EssyKibz</p>
-      <p><strong>Favorite Tech:</strong> Python</p>
-      <p><strong>Fun Fact:</strong> I love  Theater musicals!</p>
-       <p class="animal-bio"><strong>Avatar Animal:</strong> Bunny – Bunnies symbolize a cunning but calm nature. You cannot fool a nunny regardless of how cute they look.</p>
-   
+    <p><strong>GitHub:</strong> @EssyKibz</p>
+    <p><strong>Favorite Tech:</strong> Python</p>
+    <p><strong>Fun Fact:</strong> I love  Theater musicals!</p>
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/12345678?v=4" alt="Esther's Avatar"> 
+    
     <h2>Student Name: Mwangi Victor Mbugu</h2>
     <p><strong>GitHub:</strong> Mvng-ii</p>
     <p><strong>Favorite Tech:</strong> Blockchain</p>
     <p><strong>Fun Fact:</strong> I love cars!</p>
   </div>
+
+
+  </div>
+
+ 
+
+ 
+  
 
 </body>
 </html>

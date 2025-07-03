@@ -11,4 +11,6 @@ Esther Kibugi
 We learnt how to
 - Rebase
 - Solve/ prevent a merge conflict
--Merge
+
+## Operation 2 : Mark's Trial
+Purpose of a rebase is to remove the need for a merge request 

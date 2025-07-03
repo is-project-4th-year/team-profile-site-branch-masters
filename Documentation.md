@@ -11,6 +11,7 @@ Esther Kibugi
 We learnt how to
 - Rebase
 - Solve/ prevent a merge conflict
+- Do a reversal on commiting and pushing
 
 ## Operation 2 : Mark's Trial
 Purpose of a rebase is to remove the need for a merge request 

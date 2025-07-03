@@ -14,6 +14,3 @@ We learnt how to
 
 ## Operation 2 : Mark's Trial
 Purpose of a rebase is to remove the need for a merge request 
-
-## Operation 3 : Undoing a commit
-Git merge does not erase commit history

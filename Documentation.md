@@ -17,3 +17,6 @@ Purpose of a rebase is to remove the need for a merge request.
 
 ## Operation 3: Undoing Git commit
 One can do a git commit in several ways for example through a git reset or git revert depending on whether it has been pushed online.
+
+## Operation 4: Git Stash
+It is used to temporarily store uncommitted changes.
